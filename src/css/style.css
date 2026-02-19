@@ -1,0 +1,28 @@
+body {
+    background-color: #2d2d2d;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#game-container {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    /* Lăsăm browserul să netezească textul și UI-ul, deoarece folosim Phaser resolution pentru claritate internă */
+    /* Dar păstrăm background-ul pixelat dacă e cazul, deși textul e prioritar.
+       Dezactivarea acestor linii face textul 'smooth' (anti-aliased). 
+       Încercăm o abordare hibridă: lăsăm 'pixelated' pentru că jocul e pixel art, 
+       dar am crescut rezoluția internă a textului în Phaser cu 'resolution: 2'. */
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+canvas {
+    display: block;
+}

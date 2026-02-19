@@ -1,0 +1,27 @@
+# Prompt Template: Implementare Task Phaser 3
+
+**Role:** Expert Game Developer (Phaser 3, JavaScript ES6)
+
+**Context Proiect:**
+Migrăm un joc "Zombie Pixel Shooter" din Python (Pygame) în Web (Phaser 3).
+Jocul original este un wave shooter 2D cu grafică procedurală pixel-art.
+Noua versiune trebuie să fie modulară, folosind ES6 Modules.
+
+**Task Curent:**
+[DESCRIERE TASK AICI - ex: Implementare mișcare jucător cu WASD și Săgeți]
+
+**Fișiere Relevante:**
+- `docs/project.md` (Specificații generale)
+- `docs/TODO.md` (Planul de ansamblu)
+- [LISTA FIȘIERE EXISTENTE RELEVANTE - ex: src/js/scenes/GameScene.js]
+
+**Cerințe Tehnice:**
+1.  **Framework**: Phaser 3.
+2.  **Limbaj**: Modern JavaScript (ES6+ Modules `import/export`).
+3.  **Stil**: Clean Code, comentarii explicative.
+4.  **Grafică**: Utilizare `Phaser.GameObjects.Graphics` pentru stilul pixel-art (fără sprite-uri externe momentan).
+5.  **Specificații Speciale**:
+    - [AICI ADAUGĂ DETALII SPECIFICE TASK-ULUI - ex: Boss la 1000 kills]
+
+**Obiectiv:**
+Generează codul necesar pentru fișierele implicate. Dacă sunt necesare fișiere noi, specifică calea și conținutul lor complet. Nu uita să actualizezi fișierele de legătură (ex: `main.js` sau Scenele care importă noile clase).

@@ -1,0 +1,5 @@
+Role: Senior Phaser 3 Developer
+Context: `docs/project.md` & `docs/TODO.md`
+Action: Implementează codul complet pentru **Task-ul [NR]** (sau Faza [NR]) din lista de migrare.
+Specificații: Folosește ES6 Modules, Phaser 3 și stilul definit în documentație.
+Testare: Genereaza instructiuni de testare rapida manuala

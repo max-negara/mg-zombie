@@ -1,0 +1,4 @@
+Citește fișierul `docs/project.md`. 
+Generează o listă detaliată de task-uri (un fișier TODO.md) pentru migrarea completă a jocului în Phaser 3. 
+Asigură-te că planul respectă arhitectura modulară (ES6 Modules) și acoperă toți pașii: de la setup-ul inițial, 
+crearea scenelor și portarea graficii procedurale, până la mecanicile de jocCitește fișierul `docs/project.md`. 
